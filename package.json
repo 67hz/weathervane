@@ -1,0 +1,28 @@
+{
+  "name": "WeatherVane",
+  "version": "0.0.1",
+  "description": "A current weather indicator in bash",
+  "main": "weathervane.js",
+  "preferGlobal": "true",
+  "bin": {"weathervane": "weathervane.js" },
+  "scripts": {
+    "test": "vows test/* --spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajhino/weathervane.git"
+  },
+  "keywords": [
+    "node.js",
+    "npm",
+    "weather"
+  ],
+  "author": "Aaron Hinojosa",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/ajhino/weathervane/issues"
+  },
+  "dependencies": {
+    "request": "~2.27.0"
+  }
+}
